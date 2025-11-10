@@ -1,6 +1,6 @@
 # 🌐 Portafolio Personal - React
 
-Este es mi proyecto de **portafolio personal**, desarrollado con **React.js**.  
+Este es mi proyecto de **Portafolio Personal**, desarrollado con **React.js**.  
 En él presento mis habilidades, proyectos y experiencia como estudiante de **Ingeniería de Sistemas**.
 
 ---
@@ -21,7 +21,7 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
 1. **Clona el repositorio**
    ```bash
-   git clone https://github.com/tuusuario/mi-portafolio.git
+   git clone https://github.com/JosemariaNA/React-proyecto.git
    ```
 
 2. **Accede al directorio del proyecto**
@@ -40,7 +40,7 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
    ```
 
 5. Abre el proyecto en tu navegador en:  
-   👉 [http://localhost:3000](http://localhost:3000)
+   👉 [http://localhost:5173](http://localhost:5173)
 
 ---
 
@@ -53,10 +53,11 @@ Incluye un diseño moderno, adaptable (responsive) y animaciones suaves para una
 
 ## 📸 Capturas de pantalla
 
-_Agrega aquí tus capturas del proyecto (por ejemplo en la carpeta `src/assets`):_
+
 
 ```markdown
-![Vista principal](./src/assets/captura.png)
+![Vista principal](./react/src/assets/captura1.png)
+![Vista principal](./react/src/assets/captura2.png)
 ```
 
 ---
@@ -64,8 +65,8 @@ _Agrega aquí tus capturas del proyecto (por ejemplo en la carpeta `src/assets`)
 ## 🧑‍💻 Autor
 
 **Josemaria Napan Aparcana**  
-📧 [correo@ejemplo.com](mailto:correo@ejemplo.com)  
-🌍 [LinkedIn](https://www.linkedin.com/in/tuusuario) | [GitHub](https://github.com/tuusuario)
+📧 [napanjosemaria@gmail.com](mailto:napnjosemaria@gmail.com)  
+🌍 [LinkedIn](https://www.linkedin.com/in/josemaría-napan-aparcana-a446a7332) | [GitHub](https://github.com/JosemariaNA)
 
 ---
 
