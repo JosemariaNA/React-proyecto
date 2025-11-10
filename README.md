@@ -56,8 +56,8 @@ Incluye un diseño moderno, adaptable (responsive) y animaciones suaves para una
 
 
 ```markdown
-![Vista principal](https://github.com/JosemariaNA/React-proyecto/blob/182881fc9dd28d6367c0b450ebd2562a3915a1e2/react/src/assets/capturas/captura1.png)
-![Seccion Sobre Mi](https://github.com/JosemariaNA/React-proyecto/blob/182881fc9dd28d6367c0b450ebd2562a3915a1e2/react/src/assets/capturas/captura2.png)
+![Vista principal](![https://github.com/JosemariaNA/React-proyecto/blob/182881fc9dd28d6367c0b450ebd2562a3915a1e2/react/src/assets/capturas/captura1.png](https://github.com/JosemariaNA/React-proyecto/blob/182881fc9dd28d6367c0b450ebd2562a3915a1e2/react/src/assets/capturas/captura1.png))
+![Seccion Sobre Mi](![https://github.com/JosemariaNA/React-proyecto/blob/main/react/src/assets/capturas/captura2.png?raw=true](https://github.com/JosemariaNA/React-proyecto/blob/182881fc9dd28d6367c0b450ebd2562a3915a1e2/react/src/assets/capturas/captura2.png))
 ```
 
 ---
