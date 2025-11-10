@@ -56,8 +56,8 @@ Incluye un diseño moderno, adaptable (responsive) y animaciones suaves para una
 
 
 ```markdown
-![Vista principal](./react/src/assets/captura1.png)
-![Vista principal](./react/src/assets/captura2.png)
+![Vista principal](./react/src/assets/capturas/captura1.png)
+![Seccion Sobre Mi](./react/src/assets/capturas/captura2.png)
 ```
 
 ---
