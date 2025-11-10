@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-1: #1a1a2e;
+  --bg-2: #16213e;
+  --accent: #e94560;
+  --muted: #a8b2d1;
+  --text: #f1f1f1;
+}
+
+.header {
+  background: linear-gradient(135deg, var(--bg-1) 0%, var(--bg-2) 100%);
+  padding: 0;
+  border-bottom: 2px solid #0f3460;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+
+.header-content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 6px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.logo-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 6px rgba(233, 69, 96, 0.35);
+  flex-shrink: 0;
+  transition: filter 300ms ease;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.45);
+  margin: 0;
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 48px;
+  transition: filter 300ms ease;
+}
+
+.logo-section:hover .logo-img {
+  filter: drop-shadow(0 0 1.5em #e94560aa);
+}
+
+.logo-section:hover .logo {
+  filter: drop-shadow(0 0 1em #e94560aa);
+}
+
+.info-section:hover .nombre,
+.info-section:hover .detalle {
+  filter: drop-shadow(0 0 1em #e94560aa);
+}
+
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  line-height: 1.05;
+  gap: 2px;
+  min-width: 0;
+}
+
+.nombre {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: filter 300ms ease;
+}
+
+.detalle {
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+  transition: filter 300ms ease;
+}
+
+.nav {
+  width: 100%;
+  margin: 0;
+  padding: 0.75rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(135deg, var(--bg-1) 0%, var(--bg-2) 100%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.nav li {
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.4rem 1.2rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.nav a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--accent);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav a:hover {
+  color: var(--accent);
+  background: rgba(233, 69, 96, 0.08);
+}
+
+.nav a:hover::before {
+  width: 80%;
+}
+
+@media (max-width: 992px) {
+  .header-content {
+    padding: 8px 16px;
+    height: 70px;
+  }
+  .logo-img {
+    width: 44px;
+    height: 44px;
+  }
+  .logo {
+    font-size: 1.25rem;
+    height: 44px;
+  }
+  .nombre {
+    font-size: 0.98rem;
+  }
+  .detalle {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 12px;
+    height: auto;
+  }
+  .logo-section {
+    gap: 8px;
+  }
+  .info-section {
+    align-items: center;
+    text-align: center;
+  }
+  .logo-img {
+    width: 40px;
+    height: 40px;
+  }
+  .logo {
+    font-size: 1.15rem;
+    height: auto;
+  }
+  .nombre {
+    font-size: 0.95rem;
+  }
+  .detalle {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-img {
+    width: 36px;
+    height: 36px;
+  }
+  .logo {
+    font-size: 1.05rem;
+  }
+  .nombre {
+    font-size: 0.9rem;
+  }
+  .detalle {
+    font-size: 0.72rem;
+  }
+  .header-content {
+    padding: 6px 10px;
+  }
+}
