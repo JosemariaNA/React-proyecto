@@ -53,12 +53,8 @@ Incluye un diseño moderno, adaptable (responsive) y animaciones suaves para una
 
 ## 📸 Capturas de pantalla
 
-
-
-```markdown
 ![Vista principal](https://github.com/JosemariaNA/React-proyecto/blob/main/react/src/assets/capturas/captura1.png?raw=true)
 ![Sección Sobre Mí](https://github.com/JosemariaNA/React-proyecto/blob/main/react/src/assets/capturas/captura2.png?raw=true)
-```
 
 ---
 
