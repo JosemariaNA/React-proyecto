@@ -12,14 +12,14 @@ function Proyectos() {
     { 
       nombre: "Portafolio Web", 
       descripcion: "Desarrollado con React y Tailwind CSS.", 
-      enlace: "#", 
-      codigo: "#",
+      enlace: "https://josemariana.github.io/html5_CSS3_Js/", 
+      codigo: "https://github.com/josemariana/html5_CSS3_Js",
       tecnologias: ["React", "Tailwind", "CSS"]
     },
     { 
       nombre: "Juego", 
       descripcion: "Desarrollado con Java.", 
-      enlace: "#", 
+      enlace: "", 
       codigo: "#",
       tecnologias: ["Java", "Swing"]
     },
@@ -49,10 +49,20 @@ function Proyectos() {
               </div>
 
               <div className="proyecto-links">
-                <a href={proyecto.enlace} className="link-demo">
+                <a 
+                  href={proyecto.enlace} 
+                  className="link-demo"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
                   <span>👁️</span> Ver demo
                 </a>
-                <a href={proyecto.codigo} className="link-codigo">
+                <a 
+                  href={proyecto.codigo} 
+                  className="link-codigo"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
                   <span>💻</span> Código
                 </a>
               </div>
