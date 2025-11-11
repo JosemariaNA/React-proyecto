@@ -4,7 +4,7 @@ import Logo from "../assets/imagenes/logo.jpeg";
 function Header() {
   return (
     <>
-      <header className="header">
+      <header id="inicio" className="header">
         <div className="header-content">
           {/* Izquierda: logo + título "Portafolio" */}
           <div className="logo-section">
