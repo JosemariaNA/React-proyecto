@@ -3,13 +3,6 @@ import "./componentes-css/Proyectos.css";
 function Proyectos() {
   const proyectos = [
     { 
-      nombre: "Simulador de Examen", 
-      descripcion: "App en Java con base de datos MySQL.", 
-      enlace: "#", 
-      codigo: "#",
-      tecnologias: ["Java", "MySQL", "Swing"]
-    },
-    { 
       nombre: "Portafolio Web", 
       descripcion: "Desarrollado con React y Tailwind CSS.", 
       enlace: "https://josemariana.github.io/html5_CSS3_Js/", 
