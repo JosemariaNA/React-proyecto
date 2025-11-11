@@ -8,6 +8,12 @@ import Header from './componentes/Header'
 import Footer from './componentes/Footer'
 import Hero from './componentes/Hero'
 import SobreMi from './componentes/SobreMi'
+import Proyectos from './componentes/Proyectos'
+import Servicios from './componentes/Servicios'
+import Testimonios from './componentes/Testimonios'
+import Contacto from './componentes/Contacto'
+import CV from './componentes/CV'
+import Formacion from './componentes/Formacion'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,14 +30,17 @@ function App() {
 
       <SobreMi />
 
-      <Saludo nombre="Yashi" />
+      <Proyectos />
 
-      <div style={{padding: "20px", margin: "20px", fontSize: "13px"}}>
-        <h1>Ejemplo de Componente Botón</h1>
+      <Servicios />
 
-        <Boton texto="Aceptar" color="green" onClick={manejarClick} />
-        <Boton texto="Cancelar" color="red" onClick={() => alert("Cancelado")} />
-      </div>
+      <Testimonios />
+
+      <Contacto />
+
+      <CV />
+
+      <Formacion />
 
       <Footer />
       

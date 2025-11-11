@@ -1,0 +1,208 @@
+.contacto {
+  width: 100%;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.contacto::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(233, 69, 96, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(15, 52, 96, 0.2) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.contacto-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.contacto-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f1f1f1;
+  margin: 0 0 1rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contacto-title::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #e94560 0%, #0f3460 100%);
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+
+.contacto-descripcion {
+  color: #a8b2d1;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 2rem 0 3rem 0;
+  font-weight: 300;
+}
+
+.contacto-info {
+  margin: 3rem 0;
+}
+
+.contacto-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 3rem;
+  background: rgba(233, 69, 96, 0.1);
+  border: 2px solid #e94560;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.contacto-email:hover {
+  background: #e94560;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(233, 69, 96, 0.4);
+}
+
+.email-icon {
+  font-size: 1.5rem;
+}
+
+.email-text {
+  color: #f1f1f1;
+  font-weight: 500;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 3rem 0;
+  flex-wrap: wrap;
+}
+
+.red-social {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.red-social:hover {
+  background: rgba(233, 69, 96, 0.2);
+  border-color: #e94560;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(233, 69, 96, 0.3);
+}
+
+.red-nombre {
+  color: #f1f1f1;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.red-emoji {
+  font-size: 1.3rem;
+}
+
+.contacto-footer {
+  margin-top: 3rem;
+  color: #a8b2d1;
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contacto {
+    padding: 3rem 1.5rem;
+  }
+
+  .contacto-title {
+    font-size: 2rem;
+  }
+
+  .contacto-descripcion {
+    font-size: 1rem;
+    margin: 1.5rem 0 2rem 0;
+  }
+
+  .contacto-email {
+    padding: 1.2rem 2rem;
+    font-size: 1rem;
+  }
+
+  .redes-sociales {
+    gap: 1rem;
+  }
+
+  .red-social {
+    padding: 0.6rem 1.2rem;
+  }
+
+  .red-nombre {
+    font-size: 0.95rem;
+  }
+
+  .red-emoji {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacto {
+    padding: 2.5rem 1rem;
+  }
+
+  .contacto-title {
+    font-size: 1.75rem;
+  }
+
+  .contacto-descripcion {
+    font-size: 0.95rem;
+  }
+
+  .contacto-email {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .email-icon {
+    font-size: 1.2rem;
+  }
+
+  .redes-sociales {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .red-social {
+    width: 100%;
+    max-width: 250px;
+    justify-content: center;
+  }
+
+  .contacto-footer {
+    font-size: 0.85rem;
+  }
+}
