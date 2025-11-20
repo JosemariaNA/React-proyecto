@@ -12,18 +12,18 @@ function Contacto() {
         </p>
 
         <div className="contacto-info">
-          <a href="mailto:tucorreo@gmail.com" className="contacto-email">
+          <a href="mailto:napanjosemaria@gmail.com" className="contacto-email">
             <span className="email-icon">📧</span>
-            <span className="email-text">tucorreo@gmail.com</span>
+            <span className="email-text">napanjosemaria@gmail.com</span>
           </a>
         </div>
 
         <div className="redes-sociales">
-          <a href="#" className="red-social">
+          <a href="https://github.com/JosemariaNA" className="red-social">
             <span className="red-nombre">GitHub</span>
             <span className="red-emoji">💻</span>
           </a>
-          <a href="#" className="red-social">
+          <a href="https://www.linkedin.com/in/josemaría-napan-aparcana-a446a7332" className="red-social">
             <span className="red-nombre">LinkedIn</span>
             <span className="red-emoji">🔗</span>
           </a>

@@ -11,11 +11,11 @@ function CV() {
         </p>
 
         <div className="cv-buttons">
-          <a href="../public/documentos/cv.pdf" download className="btn-descargar">
+          <a href="/documentos/cv.pdf" download className="btn-descargar">
             <span className="btn-icon">📥</span>
             <span className="btn-text">Descargar CV</span>
           </a>
-          <a href="../public/documentos/cv.pdf" target="_blank" rel="noopener noreferrer" className="btn-ver">
+          <a href="/documentos/cv.pdf" target="_blank" rel="noopener noreferrer" className="btn-ver">
             <span className="btn-icon">👁️</span>
             <span className="btn-text">Ver CV</span>
           </a>
