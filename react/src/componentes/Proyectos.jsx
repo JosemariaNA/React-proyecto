@@ -9,18 +9,25 @@ function Proyectos() {
       codigo: "https://github.com/josemariana/html5_CSS3_Js",
       tecnologias: ["React", "Tailwind", "CSS"]
     },
+    {
+      nombre: "Panel de Control",
+      descripcion: "Desarrollado con PHP, MySQL, HTML5 y CSS3.",
+      enlace: "https://appwebdashboard.gamer.gd/dist/index.php",
+      codigo: "https://github.com/JosemariaNA/Docker-login-google",
+      tecnologias: ["PHP", "MySQL", "HTML5", "CSS3"]
+    },
     { 
       nombre: "Juego", 
       descripcion: "Desarrollado con Java.", 
-      enlace: "", 
-      codigo: "#",
+      enlace: "https://github.com/JosemariaNA/juego-pong", 
+      codigo: "https://github.com/JosemariaNA/juego-pong",
       tecnologias: ["Java", "Swing"]
     },
     { 
       nombre: "Calculadora", 
       descripcion: "Desarrollado con Java.", 
-      enlace: "#", 
-      codigo: "#",
+      enlace: "https://github.com/JosemariaNA/calculadora-java", 
+      codigo: "https://github.com/JosemariaNA/calculadora-java",
       tecnologias: ["Java", "Swing"]
     },
   ];

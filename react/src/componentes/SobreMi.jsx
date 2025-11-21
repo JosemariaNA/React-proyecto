@@ -76,7 +76,7 @@ function SobreMi() {
 
           <h4 className="subsection-title">Contacto</h4>
           <div className="contact">
-            <div className="chip">📧 correo@gmail.com</div>
+            <div className="chip">📧 napanjosemaria@gmail.com</div>
             <div className="chip">
               <a href="https://www.linkedin.com/in/josemaría-napan-aparcana-a446a7332" 
                 target="_blank" 
