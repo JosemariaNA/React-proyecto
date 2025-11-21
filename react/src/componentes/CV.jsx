@@ -28,7 +28,7 @@ function CV() {
           </div>
           <div className="info-item">
             <span className="info-icon">⚡</span>
-            <span className="info-text">Actualizado 2024</span>
+            <span className="info-text">Actualizado 2025</span>
           </div>
           <div className="info-item">
             <span className="info-icon">🌐</span>

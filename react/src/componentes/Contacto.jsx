@@ -19,11 +19,11 @@ function Contacto() {
         </div>
 
         <div className="redes-sociales">
-          <a href="#" className="red-social">
+          <a href="https://github.com/JosemariaNA" className="red-social">
             <span className="red-nombre">GitHub</span>
             <span className="red-emoji">💻</span>
           </a>
-          <a href="#" className="red-social">
+          <a href="https://www.linkedin.com/in/josemaría-napan-aparcana-a446a7332" className="red-social">
             <span className="red-nombre">LinkedIn</span>
             <span className="red-emoji">🔗</span>
           </a>
